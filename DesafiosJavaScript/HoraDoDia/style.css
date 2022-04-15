@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ball {
+    margin-top: 10px;
+}
+#hora_do_dia {
+    color: white;
+
+}
+
+#res {
+    margin-top: 20px;
+    font-size: 18pt;
+}
